@@ -3,10 +3,9 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f7f9;
-    display: flex; /* Чтобы боковая панель и статья встали в один ряд */
+    display: flex;
 }
 
-/* --- Стили Боковой Панели (уже знакомые) --- */
 .sidebar {
     width: 260px;
     height: 100vh;
@@ -14,9 +13,9 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
-    position: sticky; /* Панель будет на месте при прокрутке статьи */
+    position: sticky;
     top: 0;
-    flex-shrink: 0; /* Чтобы панель не сжималась */
+    flex-shrink: 0;
 }
 
 .logo-section {
@@ -26,6 +25,16 @@ body {
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
+}
+
+.logo-section a {
+    all: inherit;
+}
+
+.highlight {
+    background-color: rgba(179, 184, 189, 0.3);
+    border-radius: 5px;
+    padding: 2px 5px;
 }
 
 .page-header {
@@ -43,7 +52,6 @@ body {
     color: #8a94a6;
 }
 
-/* --- Стили Контента (Статьи) --- */
 .container {
     max-width: 680px;
     margin: 80px auto;
