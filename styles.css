@@ -1,4 +1,122 @@
 /* Тут пиши основные стили */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background-color: #343f51;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo-section {
+    background-color: #58a1ff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Заголовок страницы/раздела */
+.page-header {
+    padding: 15px 20px;
+    background-color: #2c3645;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.page-header::after {
+    content: '>'; /* Стрелочка справа */
+    font-size: 12px;
+    color: #8a94a6;
+}
+
+/* Стили ссылок */
+.nav-item {
+    padding: 12px 20px;
+    color: #c1c8d1;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    transition: 0.2s;
+    border-left: 4px solid transparent;
+}
+
+/* Активное состояние (как Desktop HD на скрине) */
+.nav-item.active {
+    background-color: #3e4b5f;
+    color: #fff;
+    border-left: 4px solid #58a1ff; /* Голубая полоска слева */
+}
+
+.nav-item:hover {
+    background-color: #3e4b5f;
+    color: #fff;
+}
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background-color: #343f51;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo-section {
+    background-color: #58a1ff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Заголовок страницы/раздела */
+.page-header {
+    padding: 15px 20px;
+    background-color: #2c3645;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.page-header::after {
+    content: '>'; /* Стрелочка справа */
+    font-size: 12px;
+    color: #8a94a6;
+}
+
+/* Стили ссылок */
+.nav-item {
+    padding: 12px 20px;
+    color: #c1c8d1;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    transition: 0.2s;
+    border-left: 4px solid transparent;
+}
+
+/* Активное состояние (как Desktop HD на скрине) */
+.nav-item.active {
+    background-color: #3e4b5f;
+    color: #fff;
+    border-left: 4px solid #58a1ff; /* Голубая полоска слева */
+}
+
+.nav-item:hover {
+    background-color: #3e4b5f;
+    color: #fff;
+}
 body {
     margin: 0;
     padding: 0;
